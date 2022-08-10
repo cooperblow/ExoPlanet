@@ -18,5 +18,6 @@ All the test done are automated unit test. You can run them with the command: py
    - I wanted the app to be lightweight and easy to use. I also decided to use Python as it is a loosely coupled language that would make short work of this kind of use case.
 2. What assumptions did you make and why?
    - The biggest assumption I made was how to decide if a planet is an orphan. Since there were 4 fields pertaining to a star I decided only if all 4 were blank would it be considered an orphan.
+   - I alos maade the assumption that the year data would be a number and decided not to do a validation for the year other than a null check.
 3. Why did you choose not to do some things?
     - Most of the decisions I made were in the interest of keeping the app lightweight and efficient.
